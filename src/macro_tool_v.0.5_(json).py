@@ -244,8 +244,8 @@ ttk.Label(frame, text="Delay (s)").grid(row=0, column=1)
 add_button = ttk.Button(root, text="Add Key", command=add_row)
 add_button.grid(row=2, column=0, pady=5)
 
-# Add 3 default rows
-for _ in range(3):
+# Add 1 default row
+for _ in range(1):
     add_row()
 
 root.mainloop()
